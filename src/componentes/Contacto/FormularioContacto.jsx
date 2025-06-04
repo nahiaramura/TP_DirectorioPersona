@@ -22,7 +22,7 @@ const FormularioContacto = () => {
     setErrores(errs);
 
     if (Object.keys(errs).length === 0) {
-      setMensaje("Formulario enviado correctamente ✅");
+      setMensaje("Formulario enviado correctamente");
       setForm({ nombre: "", apellido: "", email: "", edad: "" });
     } else {
       setMensaje("");
