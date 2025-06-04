@@ -7,7 +7,6 @@ const linkStyle = {
   padding: "0.5rem 1rem",
   borderRadius: "5px",
   backgroundColor: "#222",
-  transition: "background 0.3s",
 };
 
 
